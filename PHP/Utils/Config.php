@@ -2,9 +2,9 @@
 
 class Config   
 {
-const CONFIG_APIKEY =  '08EC93CE-7700-4D62-A1B0-9061F0730556';
-const CONFIG_CLIENTID ='worldjewels';
-const CONFIG_CLIENTSECRET = 'SBNoy04T49'; 
+const CONFIG_APIKEY =  'SET_API_KEY';
+const CONFIG_CLIENTID ='SET_CLIENT_ID';
+const CONFIG_CLIENTSECRET = 'SET_CLIENT_SECRET'; 
 const CONFIG_ENVIRONMENT_SANDBOX ='https://sandbox.clearsale.com.br/'; 
 const CONFIG_ENVIRONMENT_PRODUCTION =  'https://integration.clearsale.com.br/'; 
 const CONFIG_ANALYSIS_LOCATION_USA = 'USA';
