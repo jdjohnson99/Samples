@@ -1,0 +1,5 @@
+D:\GitHub\Samples\C#\Samples\ClearSaleModel\obj\Debug\ClearSaleModel.csprojResolveAssemblyReference.cache
+D:\GitHub\Samples\C#\Samples\ClearSaleModel\bin\Debug\ClearSaleModel.dll
+D:\GitHub\Samples\C#\Samples\ClearSaleModel\bin\Debug\ClearSaleModel.pdb
+D:\GitHub\Samples\C#\Samples\ClearSaleModel\obj\Debug\ClearSaleModel.dll
+D:\GitHub\Samples\C#\Samples\ClearSaleModel\obj\Debug\ClearSaleModel.pdb
