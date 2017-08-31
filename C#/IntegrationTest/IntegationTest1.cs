@@ -236,8 +236,8 @@ namespace IntegrationTest{
             person.Gender = 'M';
             person.BirthDate = new DateTime(1986, 5, 27); // if don't have a birth date,please to send the DateTime.Now
             person.Address = new Address();
-            person.Address.Street = "201 S Biscayne Blvd";//address line 1
-            person.Address.Comp = "Suite 1200";//address line 2
+            person.Address.AddressLine1 = "201 S Biscayne Blvd";
+            person.Address.AddressLine2 = "Suite 1200";
             person.Address.City = "Miami";
             person.Address.State = "FL";
             person.Address.ZipCode = "33131";
