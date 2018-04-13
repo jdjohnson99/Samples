@@ -6,7 +6,6 @@ include_once "Utils/Config.php";
 
 $paymentIndex = 0;
 $date = date('c', strtotime("2015-01-31"));	
-$dob = date('c', strtotime("1986-05-27"));	
 
 $clearsaleOrder = new Clearsale_Total_Model_Order_Entity_Order();
 $clearsaleOrder->ID = "ORDER_ID_1";
@@ -28,10 +27,8 @@ $clearsaleOrder->Payments[$paymentIndex]->PaymentTypeID = 1;
 $clearsaleOrder->BillingData = new Clearsale_Total_Model_Order_Entity_Person();
 $clearsaleOrder->BillingData->ID = "1";
 $clearsaleOrder->BillingData->Email = "integration@clearsale.com.br";
-$clearsaleOrder->BillingData->BirthDate = $dob;
 $clearsaleOrder->BillingData->Name = "John Smith";
 $clearsaleOrder->BillingData->Type = 1;  
-$clearsaleOrder->BillingData->Gender = 'M';	
 $clearsaleOrder->BillingData->Address->City = "MIAMI";
 $clearsaleOrder->BillingData->Address->AddressLine1 = "201 S Biscayne"; 
 $clearsaleOrder->BillingData->Address->AddressLine2 = "Suite 1200";
@@ -47,9 +44,7 @@ $clearsaleOrder->BillingData->Phones[0]->Type = 1;
 $clearsaleOrder->ShippingData = new Clearsale_Total_Model_Order_Entity_Person();
 $clearsaleOrder->ShippingData->ID = "1";
 $clearsaleOrder->ShippingData->Email = "integration@clearsale.com.br";
-$clearsaleOrder->ShippingData->BirthDate = $dob;
 $clearsaleOrder->ShippingData->Name = "John Smith";
-$clearsaleOrder->ShippingData->Gender = "M";
 $clearsaleOrder->ShippingData->Type = 1;
 
 $clearsaleOrder->ShippingData->Address->City = "MIAMI";
