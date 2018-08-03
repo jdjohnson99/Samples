@@ -14,6 +14,7 @@ $clearsaleOrder->Currency = Config::CONFIG_CURRENCY_USA;
 $clearsaleOrder->Date = $date;
 $clearsaleOrder->Reanalysis = false;
 $clearsaleOrder->Email = "integration@clearsale.com.br";
+$clearsaleOrder->Origin = "web";
 		
 $clearsaleOrder->Payments[$paymentIndex] = new Clearsale_Total_Model_Order_Entity_Payment();
 $clearsaleOrder->Payments[$paymentIndex]->Amount = number_format(floatval("100.50") , 2, ".", "");
