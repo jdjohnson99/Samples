@@ -23,6 +23,7 @@ class Clearsale_Total_Model_Order_Entity_Order
 	public $SessionID;
 	public $IP;
 	public $Reanalysis;
+	public $Origin;
 	
 	function __construct() {
 		$this->ShippingData = new Clearsale_Total_Model_Order_Entity_Person();
